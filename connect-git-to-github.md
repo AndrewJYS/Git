@@ -35,7 +35,7 @@ git init
 git remote add origin 后面填写github新建的仓库的SSH
 ```
 
-## 常用的文件操作 
+## 常用的操作 
 ```
 git add .    添加文件到暂存区
 git status   查看当前仓库状态
