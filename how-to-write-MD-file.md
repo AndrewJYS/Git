@@ -3,12 +3,13 @@
 1. 换行  
 在换行处输入两个空格  
 
-2. 标题设置 
+2. 标题设置  
+在# 后面输入**空格**和所需标题
 (1) # 一级标题  
 (2) ## 二级标题  
 (3) ### 三级标题  
 (4) #### 四级标题  
-以此类推，'#'后面有空格  
+以此类推    
 
 3. 强调  
 (1)使用* * 变为斜体，示例： *斜体强调*  
@@ -18,16 +19,27 @@
 (5)使用*** *** 变为粗斜体，示例： ***粗斜体强调***  
 (6)使用___ ___ 变为粗斜体，示例： ___粗斜体强调___   
 
-4. 代码强调  
-使用一组```，示例如下
+4. 代码高亮  
+使用一组```，示例如下  
 ```
-struct ListNode {
-    int val;
-    ListNode *next;
-    ListNode() : val(0), next(nullptr) {}
-    ListNode(int x) : val(x), next(nullptr) {}
-    ListNode(int x, ListNode *next) : val(x), next(next) {}
-};
-```  
+ostream& operator<<(ostream& out, vector<int>& nums) {
+    for (int i = 0; i < nums.size(); i++)
+        out << nums[i] << " ";
 
-5. 
+    return out;
+}
+```  
+也可以和第4点联合使用  
+```**
+ostream& operator<<(ostream& out, vector<int>& nums)  
+{  
+    for (int i = 0; i < nums.size(); i++)  
+        out << nums[i] << " ";  
+  
+    return out;  
+}
+**```  
+
+5. 代码块  
+使用一组`，示例如下
+
