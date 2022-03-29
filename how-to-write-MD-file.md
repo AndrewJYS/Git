@@ -18,4 +18,16 @@
 (5)使用*** *** 变为粗斜体，示例： ***粗斜体强调***  
 (6)使用___ ___ 变为粗斜体，示例： ___粗斜体强调___   
 
-4. 
+4. 代码强调  
+使用一组```，示例如下
+```
+struct ListNode {
+    int val;
+    ListNode *next;
+    ListNode() : val(0), next(nullptr) {}
+    ListNode(int x) : val(x), next(nullptr) {}
+    ListNode(int x, ListNode *next) : val(x), next(next) {}
+};
+```  
+
+5. 
