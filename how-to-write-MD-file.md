@@ -32,7 +32,7 @@ import numpy as np
 
 5. 链接  
 使用[]和()，[]中加入文字，()中加入链接，示例如下  
-[百度链接](www.baidu.com)  
-[谷歌链接](www.google.com)  
+[百度链接](https://www.baidu.com)  
+[谷歌链接](https://www.google.com)  
 
 6. 
