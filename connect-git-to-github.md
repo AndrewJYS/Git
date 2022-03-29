@@ -21,13 +21,14 @@ git config --global user.email ""
 ```
 如果要验证刚才所配置信息是否完整，则可以输入下述命令
 ```
-git config --global user.name ""
-git config --global user.email ""
+git config --global user.name
+git config --global user.email
 ```
 
 ## 初始化仓库  
-选择建立git仓库的文件夹，右击文件夹，选择 Git Bash Here  
-输入下述命令初始化git仓库
+选择建立git仓库的文件夹，右击文件夹，选择 Git Bash Here，输入下述命令初始化git仓库
 ```
 git init
 ```
+
+## 常用的文件操作  
