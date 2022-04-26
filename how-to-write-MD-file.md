@@ -96,5 +96,13 @@ ostream& operator<<(ostream& out, vector<int>& nums) {
 |\b|回退符|8|
 |\t|制表符|9|  
 
+## 10. 目录  
+语法：[小节标题](#标题链接)
+注意：
+标题链接格式为： 一个# + 被链接标题
+标题链接中不能出现大写字母，大写字母用小写字母代替
+标题链接中不能出现空格，空格用-代替。
+
 ## 参考  
-http://markdown.p2hp.com/index.html
+http://markdown.p2hp.com/index.html  
+https://www.cnblogs.com/librarookie/p/15429262.html  
