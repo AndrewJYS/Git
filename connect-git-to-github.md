@@ -1,10 +1,13 @@
-# Git常用操作
+# Git常用操作  
+
 以win10为例  
 
 ## 下载Git  
+
 进入 [Git官网](https://git-scm.com/downloads)，找到对应版本下载安装
 
 ## 配置SSH，和基本信息  
+
 打开Git Bash，输入下述命令即可在本地生成密钥，引号内加入注册Github的邮箱
 ```
 ssh-keygen -t rsa -C ""
@@ -25,8 +28,9 @@ git config --global user.name
 git config --global user.email
 ```
 
-## 初始化本地仓库，并连接到github 
-选择建立Git仓库的文件夹，右击文件夹，选择 Git Bash Here，输入下述命令初始化Git仓库
+## 初始化本地仓库，并连接到github  
+
+选择建立Git仓库的文件夹，右击文件夹，选择 Git Bash Here，输入下述命令初始化Git仓库。该命令将创建一个名为 .git 的子目录，这个子目录含有你初始化的 Git 仓库中所有的必须文件。但是，在这个时候，我们仅仅是做了一个初始化的操作，你的项目里的文件还没有被跟踪。  
 ```
 git init
 ```
@@ -42,3 +46,7 @@ git status   查看当前仓库状态
 git log      查看历史提交记录
 git rm -f    删除工作区文件
 ```
+
+## 参考  
+
+https://git-scm.com/book/  
