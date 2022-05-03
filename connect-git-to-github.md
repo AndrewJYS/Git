@@ -108,9 +108,7 @@ git push origin master
 
 ```md
 git pull origin master
-git fetch origin
 ```
-
 
 ## 参考  
 
