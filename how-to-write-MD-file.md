@@ -69,7 +69,7 @@ ostream& operator<<(ostream& out, vector<int>& nums) {
 [谷歌链接](https://www.google.com)  
 ```
 
-效果如下：
+效果如下：  
 [百度链接](https://www.baidu.com)  
 [谷歌链接](https://www.google.com)  
 
