@@ -15,10 +15,10 @@
 ```
 
 效果如下：  
-11111
-&ensp;11111（缩进1个空格）
-&emsp;22222（缩进2个空格的tab）
-&emsp;&emsp;22222（缩进4个空格）
+11111  
+&ensp;11111（缩进1个空格）  
+&emsp;22222（缩进2个空格的tab）  
+&emsp;&emsp;22222（缩进4个空格）  
 
 ## 2. 标题设置  
 
@@ -43,10 +43,10 @@
 头尾使用```，将代码包括起来，并可在第一组倒引号后面加上所属语言，如c++，示例如下：  
 
 \`\`\`c++
-ostream& operator<<(ostream& out, vector\<int\>& nums) {
-&emsp;&emsp;for (auto& num : nums)
-&emsp;&emsp;&emsp;&emsp;out << num << " ";
-&emsp;&emsp;return out;
+ostream& operator<<(ostream& out, vector\<int\>& nums) {  
+&emsp;&emsp;for (auto& num : nums)  
+&emsp;&emsp;&emsp;&emsp;out << num << " ";  
+&emsp;&emsp;return out;  
 }
 \`\`\`
 
@@ -97,7 +97,7 @@ ostream& operator<<(ostream& out, vector<int>& nums) {
 和C++，C一样，在关键词前使用反斜杠可以取消某些markdown关键字，示例如下  
 
 ```md
-\&ensp;没有缩进
+\&ensp;没有缩进  
 \`\`\` root \`\`\`
 \*\* 没有加粗 \*\*
 ```
@@ -105,7 +105,7 @@ ostream& operator<<(ostream& out, vector<int>& nums) {
 效果如下  
 \&ensp;没有缩进  
 \`\`\` root \`\`\`  
-\*\*没有加粗\*\*
+\*\*没有加粗\*\*  
 
 ## 8. 引用文本  
 
