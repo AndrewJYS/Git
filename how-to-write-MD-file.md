@@ -124,6 +124,8 @@ ostream& operator<<(ostream& out, vector<int>& nums) {
 
 ## 9. 表格  
 
+### 设置对齐方式  
+
 示例如下  
 
 ```md
@@ -149,6 +151,44 @@ ostream& operator<<(ostream& out, vector<int>& nums) {
 -:|-:|-:
 |\b|回退符|8|
 |\t|制表符|9|  
+
+### 设置相对列宽  
+
+```md
+<style>
+table th:first-of-type {
+    width: 20%;
+}
+table th:nth-of-type(2) {
+    width: 30%;
+}
+table th:nth-of-type(3) {
+    width: 50%;
+}
+</style>
+
+| a | b | c |
+|---|---|---|
+| 列宽 = 20% 行宽| 列宽 = 30% 行宽 |列宽 = 50% 行宽 |
+```
+
+效果如下：  
+
+<style>
+table th:first-of-type {
+    width: 20%;
+}
+table th:nth-of-type(2) {
+    width: 30%;
+}
+table th:nth-of-type(3) {
+    width: 50%;
+}
+</style>
+
+| a | b | c |
+|---|---|---|
+| 列宽 = 20% 行宽| 列宽 = 30% 行宽 |列宽 = 50% 行宽 |
 
 ## 10. 目录  
 
